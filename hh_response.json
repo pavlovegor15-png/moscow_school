@@ -1,0 +1,24 @@
+HTTP/2 403
+server: ddos-guard
+set-cookie: __ddg8_=MNengXzm2iqLOjL5; Domain=.hh.ru; Path=/; Expires=Thu, 14-May-2026 09:18:19 GMT
+set-cookie: __ddg10_=1778749099; Domain=.hh.ru; Path=/; Expires=Thu, 14-May-2026 09:18:19 GMT
+set-cookie: __ddg9_=34.134.215.5; Domain=.hh.ru; Path=/; Expires=Thu, 14-May-2026 09:18:19 GMT
+set-cookie: __ddg1_=Vq7IN35GlE1kOEIn0l2G; Domain=.hh.ru; HttpOnly; Path=/; Expires=Fri, 14-May-2027 08:58:19 GMT
+date: Thu, 14 May 2026 08:58:19 GMT
+content-type: application/json; charset=UTF-8
+content-length: 81
+x-request-id: 17787490995842bd3b58ebade8ea6002
+access-control-allow-origin: *
+access-control-expose-headers: Location, ETag, Date, Expires, Cache-Control, Content-Type, X-Request-ID
+cache-control: no-cache
+pragma: no-cache
+server-timing: frontik;desc="frontik execution time";dur=0.008669614791870117
+x-request-id: 17787490995842bd3b58ebade8ea6002
+report-to: {"group":"nel","endpoints":[{"url":"https:\/\/nel.hhdev.ru\/report\/api"}],"max_age":3600}
+report-to: {"group":"csp-endpoint","max_age":3600,"endpoints":[{"url":"https:\/\/nel.hhdev.ru\/report\/api"}]}
+nel: {"success_fraction":0,"report_to":"nel","max_age":3600}
+strict-transport-security: max-age=31536000; includeSubDomains
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+
+{"errors":[{"type":"forbidden"}],"request_id":"17787490995842bd3b58ebade8ea6002"}
